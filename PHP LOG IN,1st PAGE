@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <link rel="stylesheet" href="DESIGN.CSS">
+        <title>Document</title>
+    </head>
+
+        <body>
+
+        <header class="HEADER">
+            <a href="#" class="LOGO">LOGO</a>
+
+            <nav class="MENU">
+                <ul>
+                    <a href="#">Home</a>
+                    <a href="#">About</a>
+                   <a href="#">Contact</a>
+                </ul>
+            </nav>
+        </header>
+
+            <main>
+                <form action="OUTPUT.PHP" method= "post">
+                    <label for="USERNAME">USERNAME:</label>
+                    <input id="USERNAME" type="text" name="USERNAME" required><br>
+
+                    <label for="PASSWORD">PASSWORD:</label>
+                    <input id="PASSWORD" type="text" name="PASSWORD" required><br>
+
+                    <label for="EMAIL">EMAIL:</label>
+                    <input id="EMAIL" type="email" name="EMAIL" required>
+                    
+                    <button type="submit">Submit</button>
+                </form>
+            </main>
+        </body>

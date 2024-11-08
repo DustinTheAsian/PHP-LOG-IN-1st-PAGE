@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>Document</title>
+    <link rel="stylesheet" href="Untitled-1.css">
+</head>
+<body>
+    <header class="HEADER ">
+        <a href="#" class="logo">LOGO</a>
+
+        <nav class="NAV-BAR">
+            <a href="#">HOME</a>
+            <a href="#">ABOUT</a>
+            <a href="#">SERVICES</a>
+            <a href="#">PROFILE</a>
+            <a href="#">CONTACT</a>
+        </nav>
+        <div class="search">
+            <input type="text" placeholder="search">
+            <button><a href="#">search</a></button>
+        </div>
+
+    </header>
+    <div class="Container">
+        <main>
+        <form action="LAB2.php" method="POST">
+            <center><h1 class="SUB">REGISTER</center>
+            <label for="email">EMAIL</label><br>
+            <br>
+        <center><input type="text" name="email" id="email" placeholder="Email or password"></center>
+        <br>
+            <label for="password">PASSWORD</label>
+            <center><input type="text" name="password" id="password" placeholder="Password"></center> <br>
+
+            <center>
+            <button class="submit">REGISTER</button>
+            <button class="submit">LOG IN</button>
+        </center>
+        </form>
+    </main>
+    </div>
+</body>
+</html>
